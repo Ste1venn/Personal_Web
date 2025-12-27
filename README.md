@@ -4,9 +4,6 @@ A modern, high-performance personal website combining a **Glassmorphism UI** por
 
 Built with **React (Vite)**, **FastAPI**, **Deepseek LLM**, and **LlamaIndex**.
 
-![Project Preview](frontend/public/images/articles/preview_placeholder.png)
-*(Replace this path with a real screenshot of your landing page)*
-
 ## ✨ Key Features
 
 - **🎨 Extremely Beautiful UI**:
