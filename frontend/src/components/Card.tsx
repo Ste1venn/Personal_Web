@@ -14,7 +14,7 @@ interface CardProps {
     category?: string;
 }
 
-const Card: React.FC<CardProps> = ({ title, description, tags, date, delay = 0, slug, category }) => {
+const Card: React.FC<CardProps> = ({ title, description, tags = [], date, delay = 0, slug, category }) => {
     const navigate = useNavigate();
 
     const handleClick = () => {
