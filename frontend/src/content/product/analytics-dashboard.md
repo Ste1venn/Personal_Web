@@ -4,10 +4,9 @@ description: 基于尼尔森十大可用性原则（Nielsen’s 10 Usability Heu
 tags: [B2B SaaS, Data Viz, Product Strategy]
 date: Dec 2025
 ---
-
 # 前端 / UI 设计通用 Prompt（专业增强版）
 
-## 主题
+# 主题
 
 **基于尼尔森十大可用性原则（Nielsen’s 10 Usability Heuristics）的高可用性产品界面设计**
 
@@ -192,4 +191,3 @@ date: Dec 2025
 
 > 设计一个严格遵循尼尔森十大可用性原则的界面：
 > 状态清晰、语言真实、可撤销、防错误、低记忆负担、新手友好、高手高效、视觉克制、错误可修复、帮助随时可得。
->

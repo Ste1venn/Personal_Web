@@ -22,7 +22,7 @@ const Navbar: React.FC = () => {
             <div className="max-w-7xl mx-auto">
                 <div className="glass-panel rounded-full px-6 py-3 flex items-center justify-between">
                     <Link to="/" className="text-xl font-bold tracking-tight">
-                        <span className="text-gradient">Steven.AI</span>
+                        <span className="text-gradient">Ste1venn</span>
                     </Link>
 
                     {/* Desktop Menu */}
@@ -70,8 +70,8 @@ const Navbar: React.FC = () => {
                                     key={link.path}
                                     to={link.path}
                                     className={`text-base font-medium p-2 rounded-lg transition-colors ${isActive(link.path)
-                                            ? 'bg-[var(--color-primary-dim)] text-[var(--color-primary)]'
-                                            : 'text-[var(--color-text-secondary)] hover:bg-[var(--color-bg-secondary)]'
+                                        ? 'bg-[var(--color-primary-dim)] text-[var(--color-primary)]'
+                                        : 'text-[var(--color-text-secondary)] hover:bg-[var(--color-bg-secondary)]'
                                         }`}
                                     onClick={() => setIsOpen(false)}
                                 >

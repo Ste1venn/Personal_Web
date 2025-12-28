@@ -29,7 +29,7 @@ const Home: React.FC = () => {
 
                     <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight leading-tight">
                         Building the Future <br />
-                        <span className="text-gradient">With Intelligence</span>
+                        <span className="text-gradient">With Ste1venn</span>
                     </h1>
 
                     <p className="text-lg md:text-xl text-[var(--color-text-secondary)] max-w-2xl mx-auto mb-10">
