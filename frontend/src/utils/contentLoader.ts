@@ -35,9 +35,17 @@ export const loadContent = async (category: 'product' | 'ai' | 'entrepreneurship
         const result = frontMatter<ContentAttributes>(markdown);
         const slug = path.split('/').pop()?.replace('.md', '') || '';
 
+        // Ensure date is a string (front-matter/js-yaml can parse it as a Date object)
+        const rawDate = result.attributes.date as any;
+        const date = rawDate instanceof Date
+            ? rawDate.toISOString().split('T')[0]
+            : String(rawDate || '');
+
         return {
             slug,
             ...result.attributes,
+            date,
+            tags: Array.isArray(result.attributes.tags) ? result.attributes.tags : [],
             body: result.body
         };
     });
