@@ -1,11 +1,9 @@
 ---
-title: 2020 概括
-description: 2020 概括
+title: 总结概括
+description: 总结概括
 tags: [B2B SaaS, Data Viz, Product Strategy]
 date: 2026-01-05
 ---
-
-
 根据您提供的四份PDF文档内容，主要是关于《消费者行为学》的考试大纲、核心概念定义、复习重点笔记以及中国消费者行为的本土化分析。
 
 我将这些内容梳理为四个核心板块，每个板块包含Markdown整理的知识点和Mermaid思维导图。
