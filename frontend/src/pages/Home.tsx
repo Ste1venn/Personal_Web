@@ -28,27 +28,22 @@ const Home: React.FC = () => {
                     </span>
 
                     <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight leading-tight">
-                        Building the Future <br />
-                        <span className="text-gradient">With Ste1venn</span>
-                    </h1>
+                        Change The World <br />
 
-                    <p className="text-lg md:text-xl text-[var(--color-text-secondary)] max-w-2xl mx-auto mb-10">
-                        Exploring the intersection of Product Management, Artificial Intelligence, and Entrepreneurship.
-                        Documenting the journey of building valuable products in the age of AI.
-                    </p>
+                    </h1>
 
                     <div className="flex flex-col md:flex-row items-center justify-center gap-4">
                         <button
                             onClick={() => navigate('/product')}
                             className="px-8 py-3 rounded-full bg-[var(--color-primary)] text-[var(--color-bg-primary)] font-bold hover:opacity-90 transition-opacity w-full md:w-auto"
                         >
-                            Start Exploring
+                            Start
                         </button>
                         <button
                             onClick={handleOpenChat}
                             className="px-8 py-3 rounded-full glass-panel text-[var(--color-text-primary)] font-medium hover:bg-[var(--color-bg-secondary)] transition-colors w-full md:w-auto"
                         >
-                            Ask AI Assistant
+                            Ask
                         </button>
                     </div>
                 </motion.div>
